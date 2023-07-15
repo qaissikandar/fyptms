@@ -8,8 +8,8 @@ from django.http import FileResponse
 import os
 
 
-API_KEY = "smqAnyeOSQtiS0qa1NYhDjg6K"
-API_SECRET = "Ki5arJHYxUdLfa2jhL8CYPmnZrwmkJi8YPkcmgRoRsxVXBhc83"
+API_KEY = "**************************"
+API_SECRET = "*****************************"
 # ACCESS_TOKEN = "1258339053478567936-pMckZ4JVdTlA8TqReLojEOHrjo7mn0"
 # ACCESS_TOKEN_SECRET = "VFvSDQHiayLmRlgOiMaEspXc8fnzVboCGOXUPQOGQoIFM"
 CALLBACK_URL = "http://127.0.0.1:8000/callback"
@@ -241,10 +241,10 @@ def sentiments(request):
         data = request.POST.get('input_data')
         # print(data)
     # Process the data or perform any required operations
-    consumer_key = "6ttWC4qpNSMAL9pt75zNZidUK"
-    consumer_secret = "OBvRhyZs3O2ThAalmCfOVJJncYvAkskRrbXbHuSFJ6FjrdCc0q"
-    access_token = "1275913651657093121-8X995BPsLvpN26eopwKAOvT1S9grgU"
-    access_token_secret = "H8g5gQhVFFVS0cpOL6UDxeQ4f9mqrQBHCNr8bVulPp7gG"
+    consumer_key = "****************************"
+    consumer_secret = "********************************"
+    access_token = "****************************************"
+    access_token_secret = "************************************88"
 
     # Authentication with Twitter
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
