@@ -1,0 +1,4 @@
+API_KEY = "smqAnyeOSQtiS0qa1NYhDjg6K"
+API_SECRET = "Ki5arJHYxUdLfa2jhL8CYPmnZrwmkJi8YPkcmgRoRsxVXBhc83"
+# ACCESS_TOKEN = ""
+# ACCESS_TOKEN_SECRET = ""
